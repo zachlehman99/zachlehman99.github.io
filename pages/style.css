@@ -137,6 +137,22 @@ article h3 {
   padding: 3px;
 }
 
+.project-pictures {
+  width: 200px;
+  height: 150px;
+  padding-top: 50px;
+  position: relative;
+  left: 100px;
+}
+
+.project-p {
+  position: relative;
+  bottom: 175px;
+  left: 480px;
+  width: 55%;
+  font-size: 2em;
+}
+
 footer {
   background-color: lightskyblue;
   padding-top: 25px;
