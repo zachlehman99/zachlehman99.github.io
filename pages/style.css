@@ -46,7 +46,7 @@ nav {
   text-decoration: none;
 }
 
-a:hover, nav a:hover, .top:hover, #fixed:hover, .sidebar a:hover {
+a:hover, nav a:hover, .top:hover, #fixed:hover, .sidebar a:hover, .resume-project a:hover {
   color: blue;
   background: lightblue;
 }
@@ -109,17 +109,33 @@ article h3 {
 }
 
 .sidebar {
-    width: auto;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    background-color: lightskyblue;
-    padding-bottom: 15px;
-    padding-top: 0px;
-    font-size: 2em;
+  width: auto;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  font-size: 2em;
 }
 
+.resume-article, .resume-project {
+  text-align: center;
+}
 
+.resume-article li, .resume-project {
+  list-style: none;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.resume-project a {
+  text-decoration: none;
+  color: black;
+  border: solid 5px lightskyblue;
+  padding: 3px;
+}
 
 footer {
   background-color: lightskyblue;
