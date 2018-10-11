@@ -46,12 +46,12 @@ nav {
   text-decoration: none;
 }
 
-a:hover, nav a:hover, .top:hover, #fixed:hover {
+a:hover, nav a:hover, .top:hover, #fixed:hover, .sidebar a:hover, .resume-project a:hover {
   color: blue;
   background: lightblue;
 }
 
-h2.aboutme {
+h2.aboutme, h2 {
   text-align: center;
   font-size: 5em;
 }
@@ -98,6 +98,43 @@ article h3 {
   border: solid lightskyblue 2px;
   padding: 5px;
   margin-right: 5px;
+  bottom: 5%;
+}
+
+.sidebar nav a {
+  display: block;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar {
+  width: auto;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  font-size: 2em;
+}
+
+.resume-article, .resume-project {
+  text-align: center;
+}
+
+.resume-article li, .resume-project {
+  list-style: none;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.resume-project a {
+  text-decoration: none;
+  color: black;
+  border: solid 5px lightskyblue;
+  padding: 3px;
 }
 
 footer {
