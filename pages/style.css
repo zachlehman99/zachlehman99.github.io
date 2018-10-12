@@ -110,18 +110,26 @@ article h3 {
 
 .sidebar {
   width: auto;
-  position: fixed;
+  position: sticky;
   top: 0;
+  display: flex;
   z-index: 1;
-  background-color: lightskyblue;
   border-radius: 10px;
   padding-bottom: 15px;
   padding-top: 0px;
   font-size: 2em;
 }
 
+.sidebar a {
+  border-radius: 10px;
+  padding-top: 20px;
+  border: 2px solid black;
+}
+
 .resume-article, .resume-project {
   text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .resume-article li, .resume-project {
