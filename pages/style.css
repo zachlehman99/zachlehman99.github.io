@@ -153,6 +153,28 @@ article h3 {
   font-size: 2em;
 }
 
+.contact-email {
+  height: 20px;
+  width: 40px;
+  opacity: .5;
+  border-radius: 15px;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.contact-images {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-p {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 2em;
+}
+
 footer {
   background-color: lightskyblue;
   padding-top: 25px;
