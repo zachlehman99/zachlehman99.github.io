@@ -67,7 +67,7 @@ article.first {
   padding-right: 10px;
   display: inline-block;
   margin-bottom: 75px;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 
 article.second {
@@ -81,7 +81,7 @@ article.second {
 article h3.school {
   text-align: center;
   font-size: 2em;
-  padding-bottom: 100px;
+  padding-bottom: 25px;
 }
 
 article h3 {
@@ -143,6 +143,10 @@ article h3 {
   color: black;
   border: solid 5px lightskyblue;
   padding: 3px;
+}
+
+.resume-project {
+  text-align: left;
 }
 
 .project-pictures {
