@@ -207,6 +207,18 @@ article h3 {
   text-align: right;
 }
 
+.blog-title {
+  font-size: 4em;
+  text-align: center;
+}
+
+#blogs {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 2em;
+  text-align: justify;
+}
+
 footer {
   background-color: lightskyblue;
   padding-top: 25px;
