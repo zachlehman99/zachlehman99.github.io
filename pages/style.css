@@ -46,7 +46,7 @@ nav {
   text-decoration: none;
 }
 
-a:hover, nav a:hover, .top:hover, #fixed:hover, .sidebar a:hover, .resume-project a:hover {
+a:hover, nav a:hover, .top:hover, #fixed:hover, .sidebar a:hover, .resume-project a:hover, .blogs a p:hover {
   color: blue;
   background: lightblue;
 }
@@ -185,6 +185,26 @@ article h3 {
   margin-left: 25%;
   margin-right: 25%;
   font-size: 2em;
+}
+
+.blogs {
+  border: solid lightskyblue 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blogs p {
+  color: black;
+}
+
+.blogs a {
+  text-decoration: none;
+}
+
+.blog-date {
+  text-align: right;
 }
 
 footer {
